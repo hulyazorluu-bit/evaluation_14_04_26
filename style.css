@@ -1,0 +1,296 @@
+body {
+  font-family: Manrope;
+  font-size: 15px;
+  color: #D8935C;
+  margin: 0;
+  padding: 0;
+} 
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 60px;
+  border-bottom: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+title {
+  font-size: 24px;
+  font-family: Cormorant Garamond;
+  font-weight: bold;
+  color: #2E2A26;
+}
+ 
+.logo img {
+  width: 100px;
+  height: auto;
+}
+ 
+.nav-liens {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-liens .bouton-noir {
+  color: white;
+}
+ 
+.nav-liens a {
+  text-decoration: none;
+  color: #2E2A26;
+  font-size: 14px;
+}
+ 
+.bouton-noir:hover {
+  text-decoration: none;
+}
+
+
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+ 
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  color: #555555;
+}
+ 
+p {
+  color: #555555;
+  line-height: 1.7;
+}
+ 
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+ 
+section {
+  padding: 70px 60px;
+}
+ 
+.gris {
+  background-color: #eeeeee;
+}
+
+.gris title {
+  color: #ffffff;
+}
+ 
+.intro-texte {
+  text-align: center;
+  width: 650px;
+  margin: 0 auto 40px auto;
+}
+ 
+ 
+
+
+
+
+ 
+.bouton-noir {
+  background-color: #111111;
+  color: #ffffff;
+  border: 2px solid #111111;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+ 
+.bouton-noir:hover {
+  background-color: #333333;
+}
+ 
+.bouton-blanc {
+  background-color: #ffffff;
+  color: #2E2A26;
+  border: 2px solid #2E2A26;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+ 
+.bouton-blanc:hover {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+
+ 
+.hero {
+  display: flex;
+  background-color: #D8935C;
+  padding: 80px 60px;
+  gap: 40px;
+  align-items: center;
+}
+ 
+.hero-texte {
+  flex: 1;
+  color: white;
+}
+ 
+.hero-texte h1 {
+  font-size: 52px;
+  margin-bottom: 12px;
+}
+ 
+.hero-texte p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: 2E2A26;
+}
+ 
+.hero-boutons {
+  display: flex;
+  gap: 14px;
+}
+ 
+.hero-image {
+  flex: 1;
+  height: 350px;
+}
+ 
+.hero-image img {
+  height: 100%;
+}
+ 
+
+
+
+
+
+ 
+.promesse-contenu {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+ 
+.promesse-images {
+  flex: 1;
+}
+ 
+.img-grande {
+  height: 180px;
+  margin-bottom: 14px;
+}
+ 
+.deux-images {
+  display: flex;
+  gap: 14px;
+}
+ 
+.deux-images img {
+  height: 130px;
+  flex: 1;
+}
+ 
+.promesse-liste {
+  flex: 1;
+}
+ 
+.item {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+ 
+.coche {
+  font-size: 16px;
+  font-weight: bold;
+  color: #111111;
+  margin-top: 2px;
+}
+
+
+.services-grille {
+  display: flex;
+  gap: 28px;
+  width: 1200px;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+.services h3 {
+  text-align: center;
+}
+
+.service-carte {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 20px;
+    padding: 30px;
+}
+ 
+.service-carte img {
+  height: 200px;
+  margin-bottom: 30px;
+
+}
+ 
+.service-carte p {
+  margin-bottom: 30px;
+}
+ 
+ 
+
+
+
+
+ 
+.realisation {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 40px 0;
+  border-top: 1px solid #cccccc;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+ 
+.realisation:last-child {
+  border-bottom: 1px solid #cccccc;
+}
+ 
+.realisation img {
+  width: 48%;
+  height: 220px;
+}
+ 
+.realisation div {
+  flex: 1;
+}
+ 
+
+
+.realisation.inverse {
+  flex-direction: row-reverse;
+}
+
+temoignages h2 {
+  color: #ffffff;
+  padding: 60px 0;
+}
+ 
+
+
+
+
+
+ 
